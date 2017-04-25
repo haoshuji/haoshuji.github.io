@@ -33,9 +33,25 @@ footer {
     font-size: .8em;
 }
 
+div.blurb li {
+margin-bottom: 10px;
+}
+
+div.blurb ol {
+margin-bottom: 10px;
+}
+
+li {
+margin-bottom: 10px;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+}
+
+ul.education li{
+margin-bottom: 10px;
 }
 
 ul.posts li {
