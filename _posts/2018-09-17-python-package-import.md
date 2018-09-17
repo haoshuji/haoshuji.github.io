@@ -4,6 +4,7 @@ layout: post
 title: "Python src Import"
 date: 2018-09-17
 ---
+
 When I was trying to organize my python modules with src structure, it brings me a lot of confusion. Here are some tips I learned along the way, hope it helps to you.
 
 Assume we have a src under the /home/code/
