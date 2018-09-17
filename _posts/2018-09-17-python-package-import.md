@@ -28,7 +28,7 @@ Basically, you have two choices, 1) absolute path; 2) relative path. I will elab
 
     - import src.src_1.module_1
     
-    using this import way, you should `cd /home/code` folder and run `python -m src.src_2.module_2`, the reason is `src` is as the main package, and `import src_1.module_1` would cause `src_1` not recognized. (not clear about this, need more explanation)
+    using this import way, you should `cd /home/code` folder and run `python -m src.src_2.module_2`, the reason is package `src` is only visibale for package search, and `src_2` is not visible. 
 
 2. relative path:
     - import ..src_1.module_1
